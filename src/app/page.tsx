@@ -10,11 +10,12 @@ export default function HomePage() {
         height={150}
         className="rounded-full mx-auto mb-4 shadow-lg"
       />
-      <h1 className="text-3xl font-bold">Haii aku ferliaa</h1>
+      <h1 className="text-3xl font-bold">Hai Aku Liaa</h1>
       <p className="text-gray-600 mt-2">
-        Mahasiswa yang sedang belajar Next.js untuk membuat portfolio.
+       Di portfolio ini aku berbagi tentang diriku, keterampilan, dan project 
+        yang sudah aku kerjakan. Semoga bisa jadi inspirasi dan motivasi juga!
       </p>
     </div>
+
   );
 }
-

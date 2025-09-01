@@ -2,14 +2,19 @@ import Image from "next/image";
 
 const projects = [
   {
-    name: "Portfolio Website",
-    description: "Website portfolio menggunakan Next.js & Tailwind.",
+    name: "Jalan Sehat",
+    description: "kegiatan olahraga ringan berupa berjalan kaki bersama-sama menempuh jarak tertentu dan ada doorprize atau hadiah undian untuk peserta ",
     image: "/keren.jpeg", 
   },
   {
-    name: "ToDo App",
-    description: "Aplikasi sederhana untuk mencatat tugas harian.",
-    image: "/projects/todo.png", 
+    name: "Barikan",
+    description: "tradisi kumpul warga untuk doa bersama,setiap orang bawa makanan dari rumah, lalu makanan itu dikumpulkan jadi satu, didoakan bersama, dan setelah itu dimakan bareng-bareng",
+    image: "/barik.jpeg", 
+  },
+  {
+    name: "Karnaval",
+    description: "acara pawai atau arak-arakan di jalan yang biasanya menampilkan berbagai macam atraksi, seperti orang memakai kostum unik",
+    image: "/karvil.jpeg", 
   },
 ];
 
