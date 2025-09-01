@@ -1,21 +1,24 @@
-export default function SkillsPage() {
+export default function Skills() {
   const skills = [
     { icon: "💻", text: "HTML, CSS, JavaScript" },
-    { icon: "⚛️", text: "React & Next.js" },
-    { icon: "🛢️", text: "MySQL Database" },
+    { icon: "⚛", text: "React & Next.js" },
+    { icon: "🛢", text: "MySQL Database" },
   ];
 
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-4">Skills</h1>
-      <ul className="grid gap-4">
-        {skills.map((s, i) => (
-          <li key={i} className="flex items-center gap-2 p-3 border rounded-lg shadow">
-            <span className="text-2xl">{s.icon}</span>
-            <span>{s.text}</span>
-          </li>
+    <main className="p-8 max-w-3xl mx-auto">
+      <h1 className="text-2xl font-bold mb-6 text-pink-600">My Skills</h1>
+      <div className="grid gap-6">
+        {skills.map((skill, index) => (
+          <div
+            key={index}
+            className="p-4 bg-white rounded-2xl shadow-md hover:shadow-lg transition"
+          >
+            <span className="text-2xl">{skill.icon}</span>
+            <span className="ml-3 text-gray-700 font-medium">{skill.text}</span>
+          </div>
         ))}
-      </ul>
-    </div>
+      </div>
+    </main>
   );
 }

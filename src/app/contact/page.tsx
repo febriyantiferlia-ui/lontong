@@ -1,9 +1,12 @@
-export default function ContactPage() {
+export default function Contact() {
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-4">Contact</h1>
-      <p>Email: <a href="mailto:email@example.com" className="text-blue-500 underline">email@example.com</a></p>
-      <p>WhatsApp: <span className="text-green-600 font-semibold">+62 812-3456-7890</span></p>
-    </div>
+    <main className="p-8 max-w-3xl mx-auto">
+      <h1 className="text-2xl font-bold mb-6 text-pink-600">Contact Me</h1>
+      <div className="p-6 bg-white rounded-2xl shadow-md">
+        <p className="text-gray-700 mb-2">📧 Email: example@mail.com</p>
+        <p className="text-gray-700 mb-2">📱 WhatsApp: 0812-3456-7890</p>
+        <p className="text-gray-700">📍 Location: Indonesia</p>
+      </div>
+    </main>
   );
 }
